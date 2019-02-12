@@ -1,0 +1,29 @@
+.main-background {
+    height: 80%;
+    width: 80%;
+    background-color: red;
+    margin: 0 auto;
+}
+#customDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 64px;
+    border-radius: 30%;
+    background-color: white;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    text-decoration: none;
+    font: inherit;
+    border: 1px solid #00695c;
+    color: #00695c;
+    background: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
